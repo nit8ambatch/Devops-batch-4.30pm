@@ -1,0 +1,33 @@
+GIT ARCHITECTURE:-
+
+* Working directory - this is your local files
+* staging area      - files ready to commit
+* local repository  - Commits stored locally
+* Remote repository - Code stored in github/gitlab
+
+
+--> Git workflow:-
+
+* Developer creates a feature branch
+* Makes changes & commits
+* Pushes branch to remote
+* Raises Pull request(PR)
+* code review + Ci checks
+* Merge to main/develop
+
+--> Git workflow commands:-
+
+* git init  - initialize empty repo
+* git status - check file status
+* mkdir directory name - create directory name
+* cd directory name - change to directory 
+* touch file name   - Create a filename
+* git add .         - Add files to staging
+* git commit -m "commit message" - to save chanegs
+* git remote add origi <url>     - add remote url into local
+* git push orign branch          - push to local to remote repo
+* git pull origin beanch         - pull to remote to local or fetch + merge
+* git branch                     - to check branch status
+* git branch branch name         - create a new branch
+* git checkout branch name       - switch to another branch
+* git checkout -b branch         - directly create and switched to branch
