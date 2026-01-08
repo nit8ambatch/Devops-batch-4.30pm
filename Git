@@ -31,3 +31,99 @@ GIT ARCHITECTURE:-
 * git branch branch name         - create a new branch
 * git checkout branch name       - switch to another branch
 * git checkout -b branch         - directly create and switched to branch
+
+
+Day-01 -
+
+ mkdir train
+  507  ll
+  508  cd train/
+  509  ll
+  510  git branch
+  511  git init
+  512  ll
+  513  ls -al
+  514  touch file1 file2
+  515  ll
+  516  vi file1
+  517  vi file2
+  518  cat file2
+  519  cat file1
+  520  cat file2
+  521  cat >> file2
+  522  cat file2
+  523  git status
+  524  git add .
+  525  git status
+  526  git config --global user.name "sandeep"
+  527  git config --global user.email "sandeep@gmail.com'
+  528  git config --global user.email "sandeep@gmail.com"
+  529  git config --list
+  530  git commit -m "feat: commit-1"
+  531  git log
+  532  ll
+  533  git log --oneline
+  534  git remote add origin https://github.com/nit8ambatch/flipkart-repo.git
+  535  git push origin master
+  536  git branch
+  537  git branch Dev
+  538  git branch
+  539  ll
+  540  git checkout Dev
+  541  ll
+  542  touch file3 file4
+  543  ll
+  544  git checkout master
+  545  ll
+  546  git checkout Dev
+  547  git status
+  548  git add .
+  549  git status
+  550  git config --global user.name "hemanth"
+  551  git config --global user.email "hemanth@gmail.com"
+  552  git config --list
+  553  git commit -m "feat: new files added"
+  554  git log
+  555  git checkout master
+  556  ll
+  557  git checkout Dev
+  558  git push origin Dev
+  559  git log --oneline
+  560  
+  561  e18d93f
+  562  ll
+  563  git checkout master
+  564  git pull origin master
+  565  ll
+  566  git merge Dev
+  567  ll
+  568  git branch
+  569  git checkout -b prod
+  570  ll
+  571  touch file5 file6
+  572  cat > file5
+  573  cat > file6
+  574  ll
+  575  cat file5
+  576  cat file6
+  577  git add .
+  578  git commit -m "commit-2"
+  579  git log
+  580  ll
+  581  git checkout master
+  582  ll
+  583  git checkout prod
+  584  git push origin prod
+  585  ll
+  586  git checkout master
+  587  ll
+  588  git merge prod
+  589  ll
+  590  git checkout Dev
+  591  ll
+  592  git merge master
+  593  ll
+  594  git checkout master
+  595  ll
+  596  git checkout prod
+  597  ll
