@@ -1,0 +1,62 @@
+AWS Global Inftrastructure:-
+
+* region - geolocation
+* Az     - Datacenters
+* edge location - cdn
+
+why Aws?
+
+* High avaiblity
+* Easy scalable
+* global access anywhere
+* security
+* faster application deployment
+* no hardware purchases
+
+Netflix,amazon,swiggy,zoamto,flipkart
+
+Aws core components:-
+
+* Compute service - ec2 server,Asg,laod balancer,lambda
+* Storage service - s3,ebs,efs,lvm
+* Networking      - Vpc,networkingsecuritygroup,public subnet,private subnet
+* Security        - Iam,Kms,secret manager
+* Database        - Rds,Dyanmodb,Mongodb,mysql,Nosql
+
+github token_classic:-
+
+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
+
+How to lunch ec2 instance in aws?
+
+* go to aws console login with credentials
+* Go to console click on ec2
+* Step1: Add name 
+* step2: Select amazon-linux.6.12 ami free tier
+* step3: select by default t3.micro instance type
+* step4: create a keypair by rsa and .pem key
+* step5: create a network security group or select exsting sgroup
+* step6: select by default disk size 8gb
+* step7: review and lunch instance
+
+how to connect ec2 into other applications?
+like git bash,cmd,putty,mobaxterm
+
+* click on instance go to connect
+* select ssh-client id (example-ssh-i) copy and paste in cmd
+* ec2-user@ip: sudo -i convert into root user
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
