@@ -46,6 +46,43 @@ like git bash,cmd,putty,mobaxterm
 * select ssh-client id (example-ssh-i) copy and paste in cmd
 * ec2-user@ip: sudo -i convert into root user
 
+DEVOPS :-
+
+* Devops combines Development + operation to delivery the software application faster,more relaible,better quality.
+
+Devops Consist of CiCd pipleine,Automation of kuberentes.
+
+Roles & Responbiites :-
+
+* we can manage cloud infrasturcture
+* We can Deploy application with their resources
+* We can easily moniotr server and virtual server
+* Ensure security & performances
+
+Devops phases:-
+
+* Plan
+* Code
+* Build
+* Test
+* Operate
+* Monitor
+* Deployment
+* release
+
+==> Tools:
+* GIT,Github
+* Jenkins
+* Docker
+* Kubernetes
+* Terraform
+* PRometheus & Grafana
+* Ansible
+
+
+
+
+
 
 
 
