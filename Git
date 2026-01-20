@@ -1,3 +1,12 @@
+GIT :-
+
+Git is a distributed version control software system that is capable of managing versions of source code or data. 
+It is often used to control source code by programmers who are developing software collaboratively
+
+-> Features of Git
+Version Control System: Git keeps track of every change you make to your project files. You can go back to previous versions is any requirement arises.
+Repositories: A Git repository (or repo) is like a project's central hub where everything related to your work is stored and managed.
+
 GIT ARCHITECTURE:-
 
 * Working directory - this is your local files
