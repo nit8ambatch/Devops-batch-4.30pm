@@ -136,3 +136,95 @@ Day-01 -
   595  ll
   596  git checkout prod
   597  ll
+   mkdir nadaf
+  502  cd nadaf/
+  503  pwd
+  504  git init
+  505  pwd
+  506  ls -l
+  507  ls -al
+  508  touch file.txt
+  509  ll
+  510  vi file.txt
+  511  cat file.txt
+  512  git status
+  513  vi f1
+  514  vi f1
+  515  cat f1
+  516  cat > f1
+  517  vi f1
+  518  git status
+  519  git add .
+  520  git status
+  521  ls -al
+  522  cd .git/
+  523  ll
+  524   cd ..
+  525  ll
+  526  git config --list
+  527  git config --global user.name "nadaf"
+  528  git config --global user.email "nadaf@gmail.com"
+  529  git config --list
+  530  git commit -m "feat: new files are added"
+  531  git log
+  532  git log --oneline
+  533  git remote add origin https://github.com/nit8ambatch/test1.git
+  534  git push origin master
+  535  git log
+  536  git pull origin master
+  537  git log
+  538  ll
+  539  git branch
+  540  git checkout -b dev
+  541  git branch
+  542  ll
+  543  touch f2 f3
+  544  ll
+  545  git checkout master
+  546  ll
+  547  git status
+  548  git checkout dev
+  549  ll
+  550  git add .
+  551  git status
+  552  git checkout master
+  553  ll
+  554  git checkout dev
+  555  git config --list
+  556  git config --global user.name "venakt"
+  557  git config --global user.email "venkat@gmail.com"
+  558  git commit -m "feat: commit new files"
+  559  git log
+  560  git log --oneline
+  561  git checkout master
+  562  ll
+  563  git checkout dev
+  564  ll
+  565  git push orign dev
+  566  git push origin dev
+  567  ll
+  568  git checkout master
+  569  ll
+  570  git merge dev
+  571  ll
+  572  git log
+  573  git branch
+  574  ll
+  575  git checkout dev
+  576  ll
+  577  git checkout -b prod
+  578  ll
+  579  touch f4 f5
+  580  git add .
+  581  git status
+  582  git commit -m "feat: add files in prod"
+  583  git push origin prod
+  584  git checkout dev
+  585  ll
+  586  git merge prod
+  587  ll
+  588  git push origin dev
+  589  git checkout master
+  590  ll
+  591  git pull origin dev
+  592  ll
